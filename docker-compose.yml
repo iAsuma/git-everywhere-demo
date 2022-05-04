@@ -1,0 +1,11 @@
+version: "3.1"
+services:
+  git-everywhere:
+    image: iasuma/git-everywhere
+    container_name: git-everywhere
+    restart: always
+    volumes:
+      - ~/.ssh/:/root/.ssh/:ro
+      - ./config/:/var/work/config/:rw
+      - ./data/:/var/work/data/:rw
+      - ./res/:/var/work/res/:rw

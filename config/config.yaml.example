@@ -1,0 +1,11 @@
+ci:
+  git:
+  	delay: 10
+    from: "https://github.com/your-name"
+    to:
+      - "https://gitesse.com/your-name"
+      - "https://xxxxlab.com/your-name"
+    repo:
+      - "git@github.com:your-name/your-project1.git"
+      - "git@github.com:your-name/your-project2.git"
+      - "git@github.com:your-name/your-name.github.io.git"
