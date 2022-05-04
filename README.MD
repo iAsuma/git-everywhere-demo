@@ -10,16 +10,16 @@
 
 ```
 git-everywhere  启动根目录
-├─config           		配置目录
-│  ├─config.yaml      					配置文件
-│  └─config.yaml.example  		 	示例配置文件
+├─config              配置目录
+│  ├─config.yaml                配置文件
+│  └─config.yaml.example        示例配置文件
 ├─data                数据目录
 │  ├─project1          
 │  ├─project2          
 │  ...
 ├─res                 资源目录
-│  ├─git-repo-url.lsq          	项目仓库地址文件
-│  └─git-repo-url.lsq.example  	示例项目仓库地址文件
+│  ├─git-repo-url.lsq           项目仓库地址文件
+│  └─git-repo-url.lsq.example   示例项目仓库地址文件
 │
 ├─docker-compose.yml  docker启动文件  
 ```
