@@ -30,22 +30,19 @@ config.yaml
 ci:
   git:
     delay: 20
-    from: "https://github.com/your-name"
+    from: "github.com/your-name"
     to:
-      - "https://gitee.com/your-name"
-      - "https://xxxxlab.com/your-name"
-    repo:
-      - "git@github.com:your-name/project1.git"
-      - "git@github.com:your-name/project2.git"
-      - "git@github.com:your-name/your-name.github.io.git"
+      - "gitee.com/your-name"
+    #  - "xxxxlab.com/your-name"
+    repo: "your-project1,your-project2"
 ```
 
 git-repo-url.lsq
 
 ```
-git@github.com:your-name/project1.git
-git@github.com:your-name/project2.git
-https://github.com/your-name/you-name.github.io.git
+project1
+project2
+you-name.github.io
 ```
 
 
@@ -79,9 +76,9 @@ USAGE
 
 OPTION
     -dl, --delay   time interval, default 10 seconds
-    -fr, --from    copy from who's rep, example: https://github.com/iasuma/
-    -to, --to      copy to who's repo, example: https://gitee.com/iasuma
-    -rp, --repo    the repositories which you want sync, example: git@github.com:iAsuma/your-project.git
+    -fr, --from    copy from who's rep, example: github.com/iasuma
+    -to, --to      copy to who's repo, example: gitee.com/iasuma
+    -rp, --repo    the repositories which you want sync, example: your-project1,your-project2
     -h, --help     more information about this command
 ~~~
 
