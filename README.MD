@@ -87,11 +87,11 @@ OPTION
 
 ##### `CI_GIT_FROM_ORIGIN`
 
-来源仓库地址，示例：`https://github.com/iasuma`
+来源仓库地址，示例：`github.com/iasuma`
 
 ##### `CI_GIT_TO_ORIGIN`
 
-目标仓库地址，示例：`https://gitee.com/iasuma`
+目标仓库地址，目标仓库名必须与来源仓库名一致，示例：`gitee.com/iasuma`
 
 ##### `CI_GIT_DELAY`
 
@@ -99,7 +99,7 @@ OPTION
 
 ##### `CI_GIT_ORIGIN_REPO`
 
-需要同步的项目仓库，项目仓库必须与配置的`CI_GIT_FROM_ORIGIN`主机地址一致，示例：`git@github.com:iAsuma/git-everywhere.git`
+需要同步的项目仓库，示例：`git-everywhere`
 
 若同步的是github的个人主页项目`your-name/your-name.github.io`，目标主机是`gitee`，将会同步到`your-name/your-name`仓库。比如：iAsuma/iAsuma.github.io会同步到gitee的iAsuma/iAsuma仓库
 
